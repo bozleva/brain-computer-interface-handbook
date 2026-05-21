@@ -1,0 +1,30 @@
+# Site settings
+title: Brain-Computer Interface Handbook
+subtitle: "Your comprehensive guide to BCI research and development"
+author: Bo Li
+timezone: America/Phoenix
+lang: en
+
+# Build settings
+markdown: kramdown
+future: true
+theme: jekyll-theme-chirpy
+
+# Chirpy settings
+github:
+  username: bozleva
+  repo: "brain-computer-interface-handbook"
+  branch: gh-pages
+
+# Paginate
+paginate: 10
+
+# Base URL
+url: "https://bozleva.github.io"
+baseurl: "/brain-computer-interface-handbook"
+
+# Exclude
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
